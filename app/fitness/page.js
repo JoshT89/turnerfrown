@@ -44,45 +44,45 @@ export default function FitnessPage() {
   const joshRoutines = [
     {
       id: 1,
-      title: "The Foundation Builder",
+      title: "The Foundation Builder Bodyweight",
       type: "Strength",
-      duration: "45 min",
+      duration: "15-20 min",
       exercises: [
-        "Push-ups: 3 sets of 12-15",
-        "Squats: 3 sets of 15-20",
-        "Planks: 3 sets of 30-60 seconds",
-        "Lunges: 3 sets of 10 each leg",
-        "Mountain Climbers: 3 sets of 20"
+        "Squats: 3 sets as many as possible",
+        "Push-ups: 3 sets as many as posible",
+       "1 minute rest between sets",
+       "Repeat if you have time",
+       "Purchase weights, squat wedge and stands"
       ],
       description: "Perfect for beginners, this routine builds your foundation strength and form."
     },
     {
       id: 2,
-      title: "The Power Hour",
+      title: "Energy and Strength Builder",
       type: "HIIT",
-      duration: "60 min",
+      duration: "20-30 min",
       exercises: [
-        "Burpees: 4 sets of 8-12",
-        "Jump Squats: 4 sets of 15",
-        "Push-up to T: 4 sets of 10",
-        "High Knees: 4 sets of 30 seconds",
-        "Dead Bug: 4 sets of 10 each side"
+        "Burpees: 3 sets as many as possible",
+        "Push-ups: legs raised 3 sets as many as possible",
+        "Jump Squats: 3 sets as many as possible",
+        "Push-ups: 4 sets as many as posible",
       ],
-      description: "High-intensity routine designed to maximize calorie burn and build explosive power."
+      description: "High-intensity routine to build explosive power."
     },
     {
       id: 3,
-      title: "The Mental Warrior",
-      type: "Endurance",
-      duration: "30 min",
+      title: "Become the Beast",
+      type: "Intense",
+      duration: "30-40 min",
       exercises: [
-        "Wall Sits: 3 rounds of 45 seconds",
-        "Plank Hold: 3 rounds of 60 seconds",
-        "Single-Leg Glute Bridge: 3 sets of 12 each",
-        "Bear Crawl: 3 sets of 20 steps",
-        "Superman Hold: 3 sets of 30 seconds"
+        "Burpees: 3 sets as many as possible",
+        "Lateral Raise: 4 sets as many as possible",
+        "Jump Squats: 3 sets as many as possible",
+        "Bent Over Row: 3 sets as many as possible",
+        "Calph Raises: 4 sets as many as possible",
+        "Push-ups: 4 sets as many as possible"
       ],
-      description: "Build mental toughness while strengthening your core and posterior chain."
+      description: "Push yourself, be inventive if you need more weight."
     }
   ];
 
@@ -100,6 +100,7 @@ export default function FitnessPage() {
       case 'Strength': return 'bg-blue-500';
       case 'HIIT': return 'bg-red-500';
       case 'Endurance': return 'bg-green-500';
+      case 'Intense': return 'bg-purple-500';
       default: return 'bg-gray-500';
     }
   };
@@ -199,7 +200,8 @@ export default function FitnessPage() {
                     Josh's At-Home Routines
                   </h2>
                   <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                    Carefully crafted workouts designed to build strength, endurance, and mental toughness without any equipment.
+                    Designed to be done at home, every other day. Help to get into a routine and you will be shocked how quickly
+                     you can see changes. Highlighted some cost effective equipemnt that really helps. 
                   </p>
                 </div>
 

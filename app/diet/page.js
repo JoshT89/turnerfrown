@@ -18,79 +18,171 @@ export default function DietPage() {
   const recipes = [
     {
       id: 1,
-      title: "Power Breakfast Bowl",
+      title: "Budget Power Breakfast Bowl",
       category: "Breakfast",
       prepTime: "10 min",
       servings: 1,
       difficulty: "Easy",
-      description: "Fuel your morning with this protein-packed bowl that keeps you satisfied for hours.",
+      description: "A cheap and healthy breakfast using Aldi & Lidl ingredients. High protein, high fibre, and under £2 per serving!",
       ingredients: [
-        { item: "Greek yogurt", amount: "1 cup", category: "Protein" },
-        { item: "Rolled oats", amount: "1/2 cup", category: "Carbs" },
-        { item: "Mixed berries", amount: "1/2 cup", category: "Fruits" },
-        { item: "Almonds", amount: "1/4 cup", category: "Healthy Fats" },
-        { item: "Honey", amount: "1 tbsp", category: "Natural Sweetener" },
-        { item: "Chia seeds", amount: "1 tbsp", category: "Superfoods" }
+        { item: "Aldi Brooklea Greek Style Natural Yogurt (500g)", amount: "150g", category: "Protein", price: "£0.89", pricePerServing: "£0.27" },
+        { item: "Lidl Crownfield Porridge Oats (1kg)", amount: "50g", category: "Carbs", price: "£0.95", pricePerServing: "£0.05" },
+        { item: "Aldi Bramwells Frozen Mixed Berries (1kg)", amount: "75g", category: "Fruits", price: "£2.49", pricePerServing: "£0.19" },
+        { item: "Lidl Crownfield Mixed Nuts (200g)", amount: "25g", category: "Healthy Fats", price: "£1.99", pricePerServing: "£0.25" },
+        { item: "Aldi Bramwells Clear Honey (340g)", amount: "15g", category: "Natural Sweetener", price: "£1.29", pricePerServing: "£0.06" },
+        { item: "Lidl Crownfield Chia Seeds (200g)", amount: "10g", category: "Superfoods", price: "£1.99", pricePerServing: "£0.10" }
       ],
       instructions: [
         "Mix Greek yogurt with honey in a bowl",
-        "Add rolled oats and chia seeds, stir well",
-        "Top with fresh berries and sliced almonds",
+        "Add porridge oats and chia seeds, stir well",
+        "Top with frozen berries (thawed or microwaved for 30 seconds) and mixed nuts",
         "Let sit for 5 minutes to allow oats to soften",
         "Enjoy immediately for best texture"
       ],
-      macros: { protein: "25g", carbs: "45g", fat: "18g", calories: "420" }
+      macros: { protein: "22g", carbs: "42g", fat: "16g", calories: "380" },
+      totalCost: "£1.92",
+      costBreakdown: "Total cost per serving: £1.92 (vs £4-6 at cafes!)"
     },
     {
       id: 2,
-      title: "Warrior's Protein Smoothie",
+      title: "Quick Turkey & Sweet Potato Bowl",
+      category: "Post-Workout",
+      prepTime: "15 min",
+      servings: 1,
+      difficulty: "Easy",
+      description: "A protein-packed meal using lean turkey and sweet potato. Perfect post-workout fuel under £3!",
+      ingredients: [
+        { item: "Lidl Crownfield Turkey Breast Fillets (400g)", amount: "150g", category: "Protein", price: "£2.99", pricePerServing: "£1.12" },
+        { item: "Aldi Bramwells Sweet Potatoes (1kg)", amount: "200g", category: "Carbs", price: "£1.29", pricePerServing: "£0.26" },
+        { item: "Aldi Bramwells Frozen Broccoli (1kg)", amount: "100g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.15" },
+        { item: "Lidl Crownfield Olive Oil (500ml)", amount: "1 tbsp", category: "Healthy Fats", price: "£2.99", pricePerServing: "£0.06" },
+        { item: "Aldi Bramwells Garlic (3 pack)", amount: "2 cloves", category: "Flavor", price: "£0.45", pricePerServing: "£0.03" },
+        { item: "Lidl Crownfield Mixed Herbs (25g)", amount: "1 tsp", category: "Spices", price: "£0.85", pricePerServing: "£0.01" }
+      ],
+      instructions: [
+        "Dice sweet potato into 1cm cubes and microwave for 4-5 minutes until tender",
+        "Season turkey breast with mixed herbs and garlic",
+        "Heat olive oil in a pan over medium-high heat",
+        "Cook turkey for 4-5 minutes per side until golden and cooked through",
+        "Steam broccoli for 3-4 minutes until bright green",
+        "Slice turkey and serve over sweet potato with broccoli"
+      ],
+      macros: { protein: "38g", carbs: "35g", fat: "14g", calories: "420" },
+      totalCost: "£2.63",
+      costBreakdown: "Total cost per serving: £2.63 (vs £8-12 at meal prep services!)"
+    },
+    {
+      id: 3,
+      title: "Champion's Chicken & Couscous",
+      category: "Lunch/Dinner",
+      prepTime: "25 min",
+      servings: 4,
+      difficulty: "Medium",
+      description: "A classic combination that builds champions. Simple, effective, and delicious with budget-friendly ingredients.",
+      ingredients: [
+        { item: "Aldi Ashfield Farm Chicken Breast Fillets (650g)", amount: "400g", category: "Protein", price: "£3.99", pricePerServing: "£2.46" },
+        { item: "Lidl Crownfield Couscous (500g)", amount: "200g", category: "Carbs", price: "£1.25", pricePerServing: "£0.50" },
+        { item: "Aldi Bramwells Frozen Broccoli (1kg)", amount: "300g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.45" },
+        { item: "Lidl Crownfield Olive Oil (500ml)", amount: "2 tbsp", category: "Healthy Fats", price: "£2.99", pricePerServing: "£0.12" },
+        { item: "Aldi Bramwells Garlic (3 pack)", amount: "3 cloves", category: "Flavor", price: "£0.45", pricePerServing: "£0.05" },
+        { item: "Lidl Crownfield Mixed Herbs (25g)", amount: "2 tsp", category: "Spices", price: "£0.85", pricePerServing: "£0.02" }
+      ],
+      instructions: [
+        "Cook couscous according to package directions (usually 1:1 ratio with boiling water)",
+        "Season chicken breast with mixed herbs and garlic",
+        "Heat olive oil in a large pan over medium-high heat",
+        "Cook chicken for 6-7 minutes per side until done",
+        "Steam broccoli until tender-crisp",
+        "Slice chicken and serve over couscous with broccoli"
+      ],
+      macros: { protein: "40g", carbs: "35g", fat: "12g", calories: "395" },
+      totalCost: "£3.60",
+      costBreakdown: "Total cost per serving: £3.60 (vs £10-15 at restaurants!)"
+    },
+    {
+      id: 4,
+      title: "Simple Protein Smoothie",
       category: "Post-Workout",
       prepTime: "5 min",
       servings: 1,
       difficulty: "Easy",
-      description: "The ultimate recovery drink to rebuild and refuel your muscles after intense training.",
+      description: "A quick and affordable protein smoothie using Aldi & Lidl ingredients. Perfect for post-workout recovery under £2!",
       ingredients: [
-        { item: "Protein powder", amount: "1 scoop", category: "Protein" },
-        { item: "Banana", amount: "1 medium", category: "Fruits" },
-        { item: "Spinach", amount: "1 cup", category: "Vegetables" },
-        { item: "Almond milk", amount: "1 cup", category: "Liquid Base" },
-        { item: "Peanut butter", amount: "2 tbsp", category: "Healthy Fats" },
-        { item: "Ice cubes", amount: "1/2 cup", category: "Other" }
+        { item: "Lidl Crownfield Whey Protein Powder (1kg)", amount: "30g", category: "Protein", price: "£19.99", pricePerServing: "£0.60" },
+        { item: "Aldi Bramwells Bananas (6 pack)", amount: "1 medium", category: "Fruits", price: "£0.89", pricePerServing: "£0.15" },
+        { item: "Aldi Bramwells Frozen Spinach (1kg)", amount: "50g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.07" },
+        { item: "Lidl Crownfield Almond Milk (1L)", amount: "250ml", category: "Liquid Base", price: "£1.25", pricePerServing: "£0.31" },
+        { item: "Lidl Crownfield Peanut Butter (340g)", amount: "15g", category: "Healthy Fats", price: "£1.99", pricePerServing: "£0.09" },
+        { item: "Ice cubes", amount: "6 cubes", category: "Other", price: "Free", pricePerServing: "£0.00" }
       ],
       instructions: [
-        "Add all ingredients to a high-speed blender",
+        "Add almond milk and ice cubes to blender first",
+        "Add frozen spinach, banana, and peanut butter",
+        "Finally add protein powder on top",
         "Blend on high for 60-90 seconds until smooth",
-        "Check consistency and add more liquid if needed",
-        "Pour into a large glass or shaker bottle",
-        "Consume within 30 minutes post-workout for optimal benefits"
+        "Pour into a large glass and enjoy immediately"
       ],
-      macros: { protein: "35g", carbs: "32g", fat: "16g", calories: "380" }
+      macros: { protein: "32g", carbs: "28g", fat: "12g", calories: "340" },
+      totalCost: "£1.22",
+      costBreakdown: "Total cost per serving: £1.22 (vs £4-6 at smoothie bars!)"
     },
     {
-      id: 3,
-      title: "Champion's Chicken & Rice",
-      category: "Lunch/Dinner",
-      prepTime: "30 min",
-      servings: 4,
-      difficulty: "Medium",
-      description: "A classic combination that builds champions. Simple, effective, and delicious.",
+      id: 5,
+      title: "Protein-Packed Scrambled Eggs",
+      category: "Breakfast",
+      prepTime: "12 min",
+      servings: 1,
+      difficulty: "Easy",
+      description: "A high-protein breakfast scramble with mushrooms and spinach. Quick, healthy, and under £2 per serving!",
       ingredients: [
-        { item: "Chicken breast", amount: "1 lb", category: "Protein" },
-        { item: "Brown rice", amount: "1 cup dry", category: "Carbs" },
-        { item: "Broccoli", amount: "2 cups", category: "Vegetables" },
-        { item: "Olive oil", amount: "2 tbsp", category: "Healthy Fats" },
-        { item: "Garlic", amount: "3 cloves", category: "Flavor" },
-        { item: "Seasoning blend", amount: "2 tsp", category: "Spices" }
+        { item: "Aldi Ashfield Farm Large Eggs (6 pack)", amount: "3 eggs", category: "Protein", price: "£1.25", pricePerServing: "£0.63" },
+        { item: "Aldi Bramwells Mushrooms (250g)", amount: "100g", category: "Vegetables", price: "£0.89", pricePerServing: "£0.36" },
+        { item: "Aldi Bramwells Frozen Spinach (1kg)", amount: "50g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.07" },
+        { item: "Lidl Crownfield Olive Oil (500ml)", amount: "1 tsp", category: "Healthy Fats", price: "£2.99", pricePerServing: "£0.03" },
+        { item: "Aldi Bramwells Garlic (3 pack)", amount: "1 clove", category: "Flavor", price: "£0.45", pricePerServing: "£0.02" },
+        { item: "Lidl Crownfield Mixed Herbs (25g)", amount: "1/2 tsp", category: "Spices", price: "£0.85", pricePerServing: "£0.01" },
+        { item: "Lidl Crownfield Wholemeal Bread (800g)", amount: "1 slice", category: "Carbs", price: "£0.95", pricePerServing: "£0.12" }
       ],
       instructions: [
-        "Cook brown rice according to package directions",
-        "Season chicken breast with spice blend",
-        "Heat olive oil in a large pan over medium-high heat",
-        "Cook chicken for 6-7 minutes per side until done",
-        "Steam broccoli until tender-crisp",
-        "Slice chicken and serve over rice with broccoli"
+        "Heat olive oil in a non-stick pan over medium heat",
+        "Add sliced mushrooms and garlic, cook for 3-4 minutes until golden",
+        "Add frozen spinach and cook for 1-2 minutes until wilted",
+        "Crack eggs into a bowl, add mixed herbs and whisk lightly",
+        "Pour eggs over vegetables and scramble gently for 2-3 minutes",
+        "Serve hot with toasted wholemeal bread"
       ],
-      macros: { protein: "42g", carbs: "38g", fat: "12g", calories: "410" }
+      macros: { protein: "24g", carbs: "18g", fat: "16g", calories: "320" },
+      totalCost: "£1.24",
+      costBreakdown: "Total cost per serving: £1.24 (vs £6-8 at cafes!)"
+    },
+    {
+      id: 6,
+      title: "Healthy Snack Alternatives",
+      category: "Snacks",
+      prepTime: "5 min",
+      servings: 1,
+      difficulty: "Easy",
+      description: "Delicious healthy snacks to replace chocolate, crisps, and other unhealthy treats. Sweet and savoury options under £1!",
+      ingredients: [
+        { item: "Aldi Brooklea Greek Style Natural Yogurt (500g)", amount: "150g", category: "Protein", price: "£0.89", pricePerServing: "£0.27" },
+        { item: "Lidl Crownfield Honey Nut Cereal (500g)", amount: "30g", category: "Carbs", price: "£1.25", pricePerServing: "£0.08" },
+        { item: "Aldi Bramwells Mixed Berries (1kg frozen)", amount: "50g", category: "Fruits", price: "£2.49", pricePerServing: "£0.12" },
+        { item: "Lidl Crownfield Mixed Nuts (200g)", amount: "25g", category: "Healthy Fats", price: "£1.99", pricePerServing: "£0.25" },
+        { item: "Aldi Ashfield Farm Chicken Breast Strips (400g)", amount: "50g", category: "Protein", price: "£3.99", pricePerServing: "£0.50" },
+        { item: "Lidl Crownfield Popcorn Kernels (500g)", amount: "30g", category: "Snacks", price: "£0.95", pricePerServing: "£0.06" },
+        { item: "Aldi Bramwells Dark Chocolate (70% cocoa, 100g)", amount: "15g", category: "Sweet Treat", price: "£1.29", pricePerServing: "£0.19" }
+      ],
+      instructions: [
+        "Sweet Option 1: Mix yogurt with berries and honey cereal for a protein-packed parfait",
+        "Sweet Option 2: Melt dark chocolate and drizzle over mixed nuts for healthy chocolate nuts",
+        "Savory Option 1: Air-fry chicken strips with mixed herbs for protein bites",
+        "Savory Option 2: Pop popcorn kernels and season with mixed herbs instead of salt",
+        "Quick Option: Grab a handful of mixed nuts and berries for instant energy",
+        "All snacks are ready in under 5 minutes and much healthier than processed treats"
+      ],
+      macros: { protein: "18g", carbs: "25g", fat: "14g", calories: "280" },
+      totalCost: "£1.47",
+      costBreakdown: "Total cost per serving: £1.47 (vs £3-5 for unhealthy snacks!)"
     }
   ];
 
@@ -192,7 +284,8 @@ export default function DietPage() {
               Power Recipes
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Simple, effective meals that fuel champions. No complicated ingredients, just results.
+              Simple, effective meals that fuel champions. No complicated ingredients, just results. Used Aldi and Lidl ingredients
+               as suggested by the Aldi and Lidl websites with rough prices. Use common sense when cooking or ask a professional. 
             </p>
           </div>
 
@@ -239,10 +332,22 @@ export default function DietPage() {
                       <div className="space-y-2 max-h-48 overflow-y-auto">
                         {recipe.ingredients.map((ingredient, idx) => (
                           <div key={idx} className="flex justify-between items-center py-1 border-b border-gray-100">
-                            <span className="text-sm">{ingredient.item}</span>
+                            <div className="flex-1">
+                              <span className="text-sm">{ingredient.item}</span>
+                              {ingredient.price && (
+                                <div className="text-xs text-gray-500">
+                                  {ingredient.price} • {ingredient.pricePerServing} per serving
+                                </div>
+                              )}
+                            </div>
                             <span className="text-sm font-semibold">{ingredient.amount}</span>
                           </div>
                         ))}
+                        {recipe.totalCost && (
+                          <div className="mt-3 p-2 bg-green-50 border border-green-200 rounded">
+                            <div className="text-sm font-semibold text-green-800">{recipe.costBreakdown}</div>
+                          </div>
+                        )}
                       </div>
                     </TabsContent>
                     <TabsContent value="instructions">
