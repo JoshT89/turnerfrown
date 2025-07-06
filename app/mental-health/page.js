@@ -6,7 +6,6 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { Brain, Target, Zap, Shield, Heart, ArrowRight, CheckCircle } from 'lucide-react';
-import BrainModel from '@/components/BrainModel';
 
 export default function MentalHealthPage() {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,23 +19,23 @@ export default function MentalHealthPage() {
     title: "From Struggle to Strength: Josh's Journey",
     sections: [
       {
-        title: "The Breaking Point",
-        content: "Three years ago, I was drowning. Anxiety controlled my days, depression stole my nights, and I felt like I was failing everyone around me. I was successful on paper but empty inside.",
+        title: "The cause of my anxiety",
+        content: "in 2018 my mum was diagnosed with cancer for the second time (shes fine and happily retired). But after my mum got the all clear i quickly realised i was not clear. I couldnt stop thinking of what was coming for my family next. I spent the next couple of years uncontrolably worrying about the future, hating my work not proud of anything even crying. Doctors just wanted me to take pills which just wasnt for me. I tried cbt therapy but was told to write my worries on the worry tree, making me feel like a child. It felt like nothing would help. People closest constantly asked if i was ok which made me feel even more broken",
         emotion: "struggle"
       },
       {
-        title: "The Wake-Up Call",
-        content: "The moment I realized I had to change wasn't dramatic—it was quiet. Sitting in my car after another panic attack, I knew I couldn't live like this anymore. I had to turn my frown around.",
+        title: "The moment everything changed",
+        content: "My mum introduced me to a lifecoach lady called Carmen. She was the first person in 3 years to tell me that I wasn't broken and this is normal and can be fixed. I started reading books on mental health and exercising again. I created a coping mechanism that when a negative thought entered my mind, I would recognise it was negative and replace with a positive word, sometimes even just repeating the word boobs in my head to replace the negative thought and stop it from spiralling out of control.  ",
         emotion: "realization"
       },
       {
-        title: "The First Steps",
-        content: "I started small. Daily walks, better sleep, cutting toxic people from my life. I learned that healing isn't linear—it's messy, challenging, but absolutely worth it.",
+        title: "The first steps",
+        content: "I just kept reading and listening to mental health books, finding relatable info is relieving almost. Exercise at least every other day and eat well. If possible find a job you would enjoy. I was lucky enough to retrain into software development which enabled me to make this site and very lucky to find a great boss, makes such a difference. I even did cold showers in the morning and tried to eat well but also and above all enjoy yourself when you can, do what the fuck makes you happy. Just keep busy in the early days clean, cook, bake, sow, garden, exercise just keep your mind off anything negative and if you do recognise a negative thought, act quick and replace with something positive to you. ",
         emotion: "progress"
       },
       {
         title: "The Transformation",
-        content: "Today, I wake up excited about life. The tools I learned didn't just help me survive—they helped me thrive. Now I share these same strategies that saved my life.",
+        content: "Today, I wake up excited about life. The tools I learned didn't just help me survive—they helped me thrive. Now I share these same strategies that pretty much saved my life. You need to recognise the difference between depression and anxiety too. Depression is usually uncontrolable thoughts about the past, while anxiety is usually uncontrolable thoughts about the future. Please reach out for help and support and keep reaching until the right person arrives. Keep positive people close and learn to enjoy being alone this is also key and very powerful. Do things out of your comfort zone, will help with confidence greatly.",
         emotion: "triumph"
       }
     ]
@@ -160,22 +159,7 @@ export default function MentalHealthPage() {
         </div>
       </section>
 
-      {/* 3D Brain Section */}
-      <section className="py-20 bg-black text-white">
-        <div className="container mx-auto px-4">
-          <div className={`text-center mb-12 transition-all duration-1000 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
-            <h2 className="text-4xl font-bold mb-4">
-              Your Brain on Success
-            </h2>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Visualize the transformation happening inside your mind as you apply these strategies.
-            </p>
-          </div>
-          <div className={`max-w-4xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`}>
-            <BrainModel />
-          </div>
-        </div>
-      </section>
+
 
       {/* Josh's Story */}
       <section className="py-20 bg-white">
