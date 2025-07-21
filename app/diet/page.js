@@ -25,7 +25,7 @@ export default function DietPage() {
       difficulty: "Easy",
       description: "A cheap and healthy breakfast using Aldi & Lidl ingredients. High protein, high fibre, and under £2 per serving!",
       ingredients: [
-        { item: "Aldi Brooklea Greek Style Natural Yogurt (500g)", amount: "150g", category: "Protein", price: "£0.89", pricePerServing: "£0.27" },
+        { item: "Aldi Brooklea Greek Style Natural Yoghurt (500g)", amount: "150g", category: "Protein", price: "£0.89", pricePerServing: "£0.27" },
         { item: "Lidl Crownfield Porridge Oats (1kg)", amount: "50g", category: "Carbs", price: "£0.95", pricePerServing: "£0.05" },
         { item: "Aldi Bramwells Frozen Mixed Berries (1kg)", amount: "75g", category: "Fruits", price: "£2.49", pricePerServing: "£0.19" },
         { item: "Lidl Crownfield Mixed Nuts (200g)", amount: "25g", category: "Healthy Fats", price: "£1.99", pricePerServing: "£0.25" },
@@ -33,7 +33,7 @@ export default function DietPage() {
         { item: "Lidl Crownfield Chia Seeds (200g)", amount: "10g", category: "Superfoods", price: "£1.99", pricePerServing: "£0.10" }
       ],
       instructions: [
-        "Mix Greek yogurt with honey in a bowl",
+        "Mix Greek yoghurt with honey in a bowl",
         "Add porridge oats and chia seeds, stir well",
         "Top with frozen berries (thawed or microwaved for 30 seconds) and mixed nuts",
         "Let sit for 5 minutes to allow oats to soften",
@@ -56,7 +56,7 @@ export default function DietPage() {
         { item: "Aldi Bramwells Sweet Potatoes (1kg)", amount: "200g", category: "Carbs", price: "£1.29", pricePerServing: "£0.26" },
         { item: "Aldi Bramwells Frozen Broccoli (1kg)", amount: "100g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.15" },
         { item: "Lidl Crownfield Olive Oil (500ml)", amount: "1 tbsp", category: "Healthy Fats", price: "£2.99", pricePerServing: "£0.06" },
-        { item: "Aldi Bramwells Garlic (3 pack)", amount: "2 cloves", category: "Flavor", price: "£0.45", pricePerServing: "£0.03" },
+        { item: "Aldi Bramwells Garlic (3 pack)", amount: "2 cloves", category: "Flavour", price: "£0.45", pricePerServing: "£0.03" },
         { item: "Lidl Crownfield Mixed Herbs (25g)", amount: "1 tsp", category: "Spices", price: "£0.85", pricePerServing: "£0.01" }
       ],
       instructions: [
@@ -84,7 +84,7 @@ export default function DietPage() {
         { item: "Lidl Crownfield Couscous (500g)", amount: "200g", category: "Carbs", price: "£1.25", pricePerServing: "£0.50" },
         { item: "Aldi Bramwells Frozen Broccoli (1kg)", amount: "300g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.45" },
         { item: "Lidl Crownfield Olive Oil (500ml)", amount: "2 tbsp", category: "Healthy Fats", price: "£2.99", pricePerServing: "£0.12" },
-        { item: "Aldi Bramwells Garlic (3 pack)", amount: "3 cloves", category: "Flavor", price: "£0.45", pricePerServing: "£0.05" },
+        { item: "Aldi Bramwells Garlic (3 pack)", amount: "3 cloves", category: "Flavour", price: "£0.45", pricePerServing: "£0.05" },
         { item: "Lidl Crownfield Mixed Herbs (25g)", amount: "2 tsp", category: "Spices", price: "£0.85", pricePerServing: "£0.02" }
       ],
       instructions: [
@@ -139,7 +139,7 @@ export default function DietPage() {
         { item: "Aldi Bramwells Mushrooms (250g)", amount: "100g", category: "Vegetables", price: "£0.89", pricePerServing: "£0.36" },
         { item: "Aldi Bramwells Frozen Spinach (1kg)", amount: "50g", category: "Vegetables", price: "£1.49", pricePerServing: "£0.07" },
         { item: "Lidl Crownfield Olive Oil (500ml)", amount: "1 tsp", category: "Healthy Fats", price: "£2.99", pricePerServing: "£0.03" },
-        { item: "Aldi Bramwells Garlic (3 pack)", amount: "1 clove", category: "Flavor", price: "£0.45", pricePerServing: "£0.02" },
+        { item: "Aldi Bramwells Garlic (3 pack)", amount: "1 clove", category: "Flavour", price: "£0.45", pricePerServing: "£0.02" },
         { item: "Lidl Crownfield Mixed Herbs (25g)", amount: "1/2 tsp", category: "Spices", price: "£0.85", pricePerServing: "£0.01" },
         { item: "Lidl Crownfield Wholemeal Bread (800g)", amount: "1 slice", category: "Carbs", price: "£0.95", pricePerServing: "£0.12" }
       ],
@@ -164,7 +164,7 @@ export default function DietPage() {
       difficulty: "Easy",
       description: "Delicious healthy snacks to replace chocolate, crisps, and other unhealthy treats. Sweet and savoury options under £1!",
       ingredients: [
-        { item: "Aldi Brooklea Greek Style Natural Yogurt (500g)", amount: "150g", category: "Protein", price: "£0.89", pricePerServing: "£0.27" },
+        { item: "Aldi Brooklea Greek Style Natural Yoghurt (500g)", amount: "150g", category: "Protein", price: "£0.89", pricePerServing: "£0.27" },
         { item: "Lidl Crownfield Honey Nut Cereal (500g)", amount: "30g", category: "Carbs", price: "£1.25", pricePerServing: "£0.08" },
         { item: "Aldi Bramwells Mixed Berries (1kg frozen)", amount: "50g", category: "Fruits", price: "£2.49", pricePerServing: "£0.12" },
         { item: "Lidl Crownfield Mixed Nuts (200g)", amount: "25g", category: "Healthy Fats", price: "£1.99", pricePerServing: "£0.25" },
@@ -173,7 +173,7 @@ export default function DietPage() {
         { item: "Aldi Bramwells Dark Chocolate (70% cocoa, 100g)", amount: "15g", category: "Sweet Treat", price: "£1.29", pricePerServing: "£0.19" }
       ],
       instructions: [
-        "Sweet Option 1: Mix yogurt with berries and honey cereal for a protein-packed parfait",
+        "Sweet Option 1: Mix yoghurt with berries and honey cereal for a protein-packed parfait",
         "Sweet Option 2: Melt dark chocolate and drizzle over mixed nuts for healthy chocolate nuts",
         "Savory Option 1: Air-fry chicken strips with mixed herbs for protein bites",
         "Savory Option 2: Pop popcorn kernels and season with mixed herbs instead of salt",

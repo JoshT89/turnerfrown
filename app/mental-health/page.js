@@ -19,23 +19,23 @@ export default function MentalHealthPage() {
     title: "From Struggle to Strength: Josh's Journey",
     sections: [
       {
-        title: "The cause of my anxiety",
-        content: "in 2018 my mum was diagnosed with cancer for the second time (shes fine and happily retired). But after my mum got the all clear i quickly realised i was not clear. I couldnt stop thinking of what was coming for my family next. I spent the next couple of years uncontrolably worrying about the future, hating my work not proud of anything even crying. Doctors just wanted me to take pills which just wasnt for me. I tried cbt therapy but was told to write my worries on the worry tree, making me feel like a child. It felt like nothing would help. People closest constantly asked if i was ok which made me feel even more broken",
+        title: "The Root of My Anxiety",
+        content: "In 2018, my mum was diagnosed with cancer for the second time. Thankfully, she's now healthy and happily retired, but the experience left me with something I didn't expect, crippling anxiety about the future. After she got the all-clear, I realised I wasn't clear at all. I couldn't stop thinking about what might come next for my family. For the next two years, I lived in a constant state of worry, hating my work, feeling unaccomplished, and even breaking down in tears. When I sought help, doctors immediately wanted to prescribe medication, which wasn't the path I wanted to take. I tried CBT therapy, but being told to write my worries on a 'worry tree' made me feel infantilised. Nothing seemed to work, and the constant 'Are you okay?' questions from loved ones only made me feel more broken.",
         emotion: "struggle"
       },
       {
-        title: "The moment everything changed",
-        content: "My mum introduced me to a lifecoach lady called Carmen. She was the first person in 3 years to tell me that I wasn't broken and this is normal and can be fixed. I started reading books on mental health and exercising again. I created a coping mechanism that when a negative thought entered my mind, I would recognise it was negative and replace with a positive word, sometimes even just repeating the word boobs in my head to replace the negative thought and stop it from spiralling out of control.  ",
+        title: "The Turning Point",
+        content: "Everything changed when my mum introduced me to a life coach named Carmen. She was the first person in three years to tell me I wasn't broken—that what I was experiencing was normal and fixable. This validation was the breakthrough I needed. I began reading mental health books and returning to exercise. Most importantly, I developed a simple but effective coping mechanism: whenever a negative thought entered my mind, I would immediately recognise it as negative and replace it with something positive. Sometimes this meant simply repeating a positive word in my head to interrupt the spiral before it could take control.",
         emotion: "realization"
       },
       {
-        title: "The first steps",
-        content: "I just kept reading and listening to mental health books, finding relatable info is relieving almost. Exercise at least every other day and eat well. If possible find a job you would enjoy. I was lucky enough to retrain into software development which enabled me to make this site and very lucky to find a great boss, makes such a difference. I even did cold showers in the morning and tried to eat well but also and above all enjoy yourself when you can, do what the fuck makes you happy. Just keep busy in the early days clean, cook, bake, sow, garden, exercise just keep your mind off anything negative and if you do recognise a negative thought, act quick and replace with something positive to you. ",
+        title: "Building My Foundation",
+        content: "I immersed myself in mental health literature, finding immense relief in relatable information. I committed to exercising at least every other day and improving my nutrition. I was fortunate enough to retrain in software development, which not only gave me a career I enjoy but also enabled me to create this platform. Finding a supportive boss made an incredible difference. I incorporated cold showers into my morning routine and focused on eating well, but most importantly, I learnt to prioritise what makes me happy. In those early days, I kept myself busy with activities like cleaning, cooking, gardening, gaming, walks, learning and exercise—anything to keep my mind occupied. When negative thoughts surfaced, I acted quickly to replace them with positive alternatives.",
         emotion: "progress"
       },
       {
         title: "The Transformation",
-        content: "Today, I wake up excited about life. The tools I learned didn't just help me survive—they helped me thrive. Now I share these same strategies that pretty much saved my life. You need to recognise the difference between depression and anxiety too. Depression is usually uncontrolable thoughts about the past, while anxiety is usually uncontrolable thoughts about the future. Please reach out for help and support and keep reaching until the right person arrives. Keep positive people close and learn to enjoy being alone this is also key and very powerful. Do things out of your comfort zone, will help with confidence greatly.",
+        content: "Today, I wake up genuinely excited about life. The tools I learnt didn't just help me survive—they helped me thrive. Now I share these same strategies that essentially saved my life. Understanding the difference between depression and anxiety was crucial: depression typically involves uncontrollable thoughts about the past, whilst anxiety focuses on uncontrollable thoughts about the future. My advice is to reach out for help and support, and keep reaching until you find the right person. Surround yourself with positive people and learn to enjoy your own company—this is both key and incredibly powerful. Finally, step outside your comfort zone regularly, it builds confidence in ways you can't imagine.",
         emotion: "triumph"
       }
     ]

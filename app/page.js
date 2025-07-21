@@ -60,7 +60,8 @@ export default function Home() {
                 <Zap className="w-8 h-8 text-yellow-300 animate-bounce-gentle" />
               </div>
               <p className="text-lg lg:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-                A powerful platform built for men who are ready to take control of their physical and mental wellbeing. 
+                Hi, I&apos;m Josh Turner. I built this platform because I know how it feels to go through tough times. 
+                This is my way of helping other men take control of their physical and mental wellbeing. 
                 No excuses. No shortcuts. Just results.
               </p>
               <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold text-lg px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
@@ -80,7 +81,8 @@ export default function Home() {
               Choose Your Path
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Three pillars of masculine wellness. Pick your focus and start building the life you deserve.
+              Three pillars of masculine wellness that helped me through my darkest moments. 
+              Pick your focus and start building the life you deserve.
             </p>
           </div>
 
@@ -122,6 +124,7 @@ export default function Home() {
             </h2>
             <p className="text-xl mb-8 opacity-90">
               Join thousands of men who have already started their transformation journey. 
+              I&apos;ve been where you are, and I&apos;m here to show you the way forward. 
               The only thing standing between you and your best self is action.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

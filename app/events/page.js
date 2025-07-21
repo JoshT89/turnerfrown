@@ -42,7 +42,7 @@ export default function EventsPage() {
       capacity: "1000 participants",
       price: "Free",
       status: "planning",
-      description: "Kick off the ultimate 30-day fitness transformation with fellow Turner Frown warriors. Daily workouts, nutrition guidance, and group motivation.",
+      description: "Kick off the ultimate 30-day fitness transformation with your fellow man. Daily workouts, nutrition guidance, and group motivation.",
       highlights: [
         "Daily workout videos",
         "Nutrition meal plans",
@@ -60,7 +60,7 @@ export default function EventsPage() {
       capacity: "50-100 per city",
       price: "Free",
       status: "planning",
-      description: "In-person meetups in major cities across the country. Connect with local Turner Frown community members and build lasting friendships.",
+      description: "In-person meetups in major cities across the country. Connect with local community members and build lasting friendships.",
       highlights: [
         "Face-to-face networking",
         "Local community building",
@@ -100,7 +100,7 @@ export default function EventsPage() {
               EVENTS
             </h1>
             <p className="text-xl lg:text-2xl mb-8 opacity-90">
-              Connect, learn, and grow with the Turner Frown community.
+              Connect, learn, and grow.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-lg">
               <div className="flex items-center gap-2">
@@ -125,20 +125,19 @@ export default function EventsPage() {
         <div className="container mx-auto px-4">
           <div className={`text-center max-w-4xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
             <h2 className="text-4xl font-bold mb-6 text-gradient">
-              Building Something Bigger
+              We&apos;re Just Getting Started
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              The Turner Frown community is growing rapidly, and we're planning incredible events to bring us all together. 
-              As our community reaches critical mass, we'll launch workshops, challenges, meetups, and exclusive experiences 
-              that will accelerate your transformation journey.
+              We&apos;re a startup with big dreams. If you&apos;re enjoying this app, please share it with other gents who might need it. 
+              As we grow, we want to host real events, meetups, and hope to partner with mental health charities to make an even bigger impact.
             </p>
             <div className="bg-gradient-to-r from-yellow-100 to-purple-100 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-gray-800">
-                Be the First to Know
+                Help Us Grow
               </h3>
               <p className="text-lg text-gray-700 mb-6">
-                Join our waitlist to get exclusive early access to all Turner Frown events. 
-                When we launch, you'll be the first to secure your spot.
+                Share this platform with your friends, family, and anyone who might benefit. 
+                The more men we reach, the more events and meetups we can organise.
               </p>
               <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-purple-600 hover:from-yellow-500 hover:to-purple-700 text-white font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
                 Join the Waitlist
@@ -154,10 +153,10 @@ export default function EventsPage() {
         <div className="container mx-auto px-4">
           <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
             <h2 className="text-4xl font-bold mb-4 text-gradient">
-              What's Coming
+              What&apos;s Coming
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Here's a preview of the incredible events we're planning for the Turner Frown community.
+              Here&apos;s what we&apos;re dreaming of building as our community grows.
             </p>
           </div>
 
@@ -234,25 +233,25 @@ export default function EventsPage() {
         <div className="container mx-auto px-4">
           <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
             <h2 className="text-4xl font-bold mb-4">
-              Growing Stronger Together
+              Every Man Counts
             </h2>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              The Turner Frown movement is gaining momentum. Join thousands of men who are already transforming their lives.
+              We're building this community one man at a time. Every share, every connection, every story matters.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className={`text-center transition-all duration-1000 ${isVisible ? 'animate-slide-up delay-100' : 'opacity-0'}`}>
-              <div className="text-5xl font-bold text-yellow-400 mb-2">10K+</div>
-              <div className="text-xl opacity-90">Community Members</div>
+              <div className="text-5xl font-bold text-yellow-400 mb-2">Growing</div>
+              <div className="text-xl opacity-90">Community</div>
             </div>
             <div className={`text-center transition-all duration-1000 ${isVisible ? 'animate-slide-up delay-200' : 'opacity-0'}`}>
-              <div className="text-5xl font-bold text-purple-400 mb-2">500+</div>
-              <div className="text-xl opacity-90">Success Stories</div>
+              <div className="text-5xl font-bold text-purple-400 mb-2">Real</div>
+              <div className="text-xl opacity-90">Stories</div>
             </div>
             <div className={`text-center transition-all duration-1000 ${isVisible ? 'animate-slide-up delay-300' : 'opacity-0'}`}>
-              <div className="text-5xl font-bold text-green-400 mb-2">50+</div>
-              <div className="text-xl opacity-90">Cities Represented</div>
+              <div className="text-5xl font-bold text-green-400 mb-2">Future</div>
+              <div className="text-xl opacity-90">Events</div>
             </div>
           </div>
         </div>
@@ -263,16 +262,16 @@ export default function EventsPage() {
         <div className="container mx-auto px-4 text-center">
           <div className={`max-w-3xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`}>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Don't Miss Out
+              Help Us Build This
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              The Turner Frown events will be game-changers. Join the waitlist now and be among the first to experience 
-              the power of our community in person.
+              Share this platform with men who need it. The more we grow, the more we can do together. 
+              Let's build something that actually helps.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
                 <Calendar className="mr-2 w-5 h-5" />
-                Join Event Waitlist
+                Share This Platform
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple-600 font-bold px-8 py-4 rounded-full">
                 Follow Updates

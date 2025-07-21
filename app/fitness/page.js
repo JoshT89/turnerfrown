@@ -145,7 +145,7 @@ export default function FitnessPage() {
                 BullyJuice Videos
               </TabsTrigger>
               <TabsTrigger value="josh" className="text-lg font-semibold">
-                Josh's Routines
+                Josh&apos;s Routines
               </TabsTrigger>
             </TabsList>
 
@@ -197,11 +197,11 @@ export default function FitnessPage() {
               <div className={`transition-all duration-1000 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
                 <div className="text-center mb-12">
                   <h2 className="text-4xl font-bold mb-4 text-gradient">
-                    Josh's At-Home Routines
+                    Josh&apos;s At-Home Routines
                   </h2>
                   <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                     Designed to be done at home, every other day. Help to get into a routine and you will be shocked how quickly
-                     you can see changes. Highlighted some cost effective equipemnt that really helps. 
+                     you can see changes. Highlighted some cost effective equipment that really helps. 
                   </p>
                 </div>
 
