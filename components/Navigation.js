@@ -2,9 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { name: 'Home', href: '/' },
@@ -24,7 +25,13 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <Zap className="w-8 h-8 text-yellow-400 group-hover:rotate-12 transition-transform duration-300" />
+            <Image
+              src="/tflogo.png"
+              alt="Turner Frown Logo"
+              width={50}
+              height={50}
+              className="rounded group-hover:rotate-12 transition-transform duration-300"
+            />
             <span className="text-2xl font-bold text-gradient">TURNER FROWN</span>
           </Link>
 
@@ -41,9 +48,11 @@ export default function Navigation() {
                 {item.name}
               </Link>
             ))}
-            <Button className="bg-gradient-to-r from-yellow-400 to-purple-600 hover:from-yellow-500 hover:to-purple-700 text-white font-semibold px-6 py-2 rounded-full">
-              Get Started
-            </Button>
+            <Link href="/mental-health">
+              <Button className="bg-gradient-to-r from-yellow-400 to-purple-600 hover:from-yellow-500 hover:to-purple-700 text-white font-semibold px-6 py-2 rounded-full">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -71,9 +80,11 @@ export default function Navigation() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="bg-gradient-to-r from-yellow-400 to-purple-600 text-white font-semibold py-2 rounded-full mt-4">
-                Get Started
-              </Button>
+              <Link href="/mental-health" onClick={() => setIsOpen(false)}>
+                <Button className="bg-gradient-to-r from-yellow-400 to-purple-600 text-white font-semibold py-2 rounded-full mt-4">
+                  Get Started
+                </Button>
+              </Link>
             </div>
           </div>
         )}

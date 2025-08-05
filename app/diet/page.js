@@ -216,9 +216,8 @@ export default function DietPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section with Water Flow Background */}
-      <section className="relative water-flow text-white py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-black/30"></div>
-        <div className="relative container mx-auto px-4">
+      <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-20">
+        <div className="container mx-auto px-4">
           <div className={`text-center max-w-4xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-slide-up' : 'opacity-0'}`}>
             <Apple className="w-16 h-16 mx-auto mb-6 animate-bounce-gentle" />
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">
@@ -380,7 +379,11 @@ export default function DietPage() {
             <p className="text-xl mb-8 opacity-90">
               Your body is your vehicle to greatness. Start feeding it like the champion you are.
             </p>
-            <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
+            <Button 
+              size="lg" 
+              className="bg-white text-green-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+              onClick={() => window.open('https://www.nutrition.org.uk/creating-a-healthy-diet/eating-healthily-on-a-budget/', '_blank')}
+            >
               <Apple className="mr-2 w-5 h-5" />
               Start Eating Better
             </Button>

@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Dumbbell, Apple, Brain, Calendar, ArrowRight, Zap } from 'lucide-react';
+import { Dumbbell, Apple, Brain, Calendar, ArrowRight } from 'lucide-react';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -53,21 +54,35 @@ export default function Home() {
                 <span className="block text-6xl lg:text-8xl">FROWN</span>
               </h1>
               <div className="flex items-center justify-center gap-3 mb-8">
-                <Zap className="w-8 h-8 text-yellow-300 animate-bounce-gentle" />
+                <Image
+                  src="/tflogo.png"
+                  alt="Turner Frown Logo"
+                  width={50}
+                  height={50}
+                  className="rounded animate-bounce-gentle"
+                />
                 <p className="text-xl lg:text-2xl font-semibold uppercase tracking-wide">
                   Transform Your Mindset, Elevate Your Health
                 </p>
-                <Zap className="w-8 h-8 text-yellow-300 animate-bounce-gentle" />
+                <Image
+                  src="/tflogo.png"
+                  alt="Turner Frown Logo"
+                  width={50}
+                  height={50}
+                  className="rounded animate-bounce-gentle"
+                />
               </div>
               <p className="text-lg lg:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-                Hi, I&apos;m Josh Turner. I built this platform because I know how it feels to go through tough times. 
+                Hi, I&apos;m Josh. I built this platform because I know how it feels to go through tough times. 
                 This is my way of helping other men take control of their physical and mental wellbeing. 
                 No excuses. No shortcuts. Just results.
               </p>
-              <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold text-lg px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
-                Start Your Transformation
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <Link href="/mental-health">
+                <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold text-lg px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
+                  Start Your Transformation
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -127,16 +142,13 @@ export default function Home() {
               I&apos;ve been where you are, and I&apos;m here to show you the way forward. 
               The only thing standing between you and your best self is action.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Link href="/events">
                 <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-purple-600 hover:from-yellow-500 hover:to-purple-700 text-white font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
                   <Calendar className="mr-2 w-5 h-5" />
                   Upcoming Events
                 </Button>
               </Link>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black font-bold px-8 py-4 rounded-full">
-                Learn More
-              </Button>
             </div>
           </div>
         </div>

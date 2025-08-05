@@ -60,7 +60,7 @@ export default function EventsPage() {
       capacity: "50-100 per city",
       price: "Free",
       status: "planning",
-      description: "In-person meetups in major cities across the country. Connect with local community members and build lasting friendships.",
+      description: "In-person meetups in major cities across the country. Connect with local community members and build lasting friendships with like minded people.",
       highlights: [
         "Face-to-face networking",
         "Local community building",
@@ -268,11 +268,7 @@ export default function EventsPage() {
               Share this platform with men who need it. The more we grow, the more we can do together. 
               Let's build something that actually helps.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
-                <Calendar className="mr-2 w-5 h-5" />
-                Share This Platform
-              </Button>
+            <div className="flex justify-center">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple-600 font-bold px-8 py-4 rounded-full">
                 Follow Updates
                 <ArrowRight className="ml-2 w-4 h-4" />

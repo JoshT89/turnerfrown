@@ -128,6 +128,20 @@ export default function MentalHealthPage() {
     }
   };
 
+  const scrollToStep1 = () => {
+    const step1Element = document.getElementById('step-1');
+    if (step1Element) {
+      const headerOffset = 100; // Offset to account for header and ensure purple header is visible
+      const elementPosition = step1Element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section */}
@@ -200,7 +214,11 @@ export default function MentalHealthPage() {
 
           <div className="max-w-6xl mx-auto">
             {stepGuide.map((guide, index) => (
-              <div key={guide.step} className={`mb-12 transition-all duration-1000 ${isVisible ? `animate-slide-up delay-${(index + 1) * 100}` : 'opacity-0'}`}>
+              <div 
+                key={guide.step} 
+                id={guide.step === 1 ? 'step-1' : undefined}
+                className={`mb-12 transition-all duration-1000 ${isVisible ? `animate-slide-up delay-${(index + 1) * 100}` : 'opacity-0'}`}
+              >
                 <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
                   <CardHeader className="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
                     <div className="flex items-center justify-between">
@@ -266,7 +284,7 @@ export default function MentalHealthPage() {
               You have everything you need to turn your mental health around. The only question is: will you start today?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200">
+              <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200" onClick={scrollToStep1}>
                 <Brain className="mr-2 w-5 h-5" />
                 Begin Step 1
               </Button>
