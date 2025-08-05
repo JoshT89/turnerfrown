@@ -293,11 +293,11 @@ export default function DietPage() {
               <Card key={recipe.id} className={`overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 ${isVisible ? `animate-slide-up delay-${(index + 1) * 150}` : 'opacity-0'}`}>
                 <CardHeader className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white">
                   <div className="flex justify-between items-start">
-                    <div>
+                    <div className="flex-1">
                       <CardTitle className="text-2xl mb-2">{recipe.title}</CardTitle>
                       <Badge className="bg-white/20 text-white">{recipe.category}</Badge>
                     </div>
-                    <div className="text-right text-sm opacity-90">
+                    <div className="text-right text-sm opacity-90 flex-shrink-0 ml-4">
                       <div className="flex items-center gap-1 mb-1">
                         <Clock className="w-3 h-3" />
                         {recipe.prepTime}
