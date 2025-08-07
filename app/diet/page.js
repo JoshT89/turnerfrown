@@ -189,7 +189,7 @@ export default function DietPage() {
   const nutritionTips = [
     {
       title: "Hydration is King",
-      description: "Drink at least 3-4 pints of water daily. Your performance depends on it.",
+      description: "Drink around 3-4 pints of water daily. Your performance depends on it.",
       icon: Droplets,
       color: "from-blue-400 to-cyan-500"
     },
