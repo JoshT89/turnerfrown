@@ -16,11 +16,11 @@ export default function Home() {
 
   const sections = [
     {
-      title: 'FITNESS',
-      icon: Dumbbell,
-      description: 'Build strength, power, and confidence with proven workout routines',
-      href: '/fitness',
-      color: 'from-yellow-400 to-orange-500',
+      title: 'MENTAL HEALTH',
+      icon: Brain,
+      description: 'Develop mental resilience and unlock your true potential',
+      href: '/mental-health',
+      color: 'from-purple-500 to-pink-500',
       delay: 'delay-100'
     },
     {
@@ -32,11 +32,11 @@ export default function Home() {
       delay: 'delay-200'
     },
     {
-      title: 'MENTAL HEALTH',
-      icon: Brain,
-      description: 'Develop mental resilience and unlock your true potential',
-      href: '/mental-health',
-      color: 'from-purple-500 to-pink-500',
+      title: 'FITNESS',
+      icon: Dumbbell,
+      description: 'Build strength, power, and confidence with proven workout routines',
+      href: '/fitness',
+      color: 'from-yellow-400 to-orange-500',
       delay: 'delay-300'
     }
   ];
