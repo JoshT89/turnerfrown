@@ -107,6 +107,22 @@ export default function Footer() {
               Events
             </Link>
           </div>
+
+          {/* Legal Links Row */}
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-xs opacity-70">
+            <Link href="/legal" className={`${colors.hover} transition-colors`}>
+              Legal Info
+            </Link>
+            <Link href="/privacy-policy" className={`${colors.hover} transition-colors`}>
+              Privacy Policy
+            </Link>
+            <Link href="/cookie-policy" className={`${colors.hover} transition-colors`}>
+              Cookie Policy
+            </Link>
+            <Link href="/terms-and-conditions" className={`${colors.hover} transition-colors`}>
+              Terms & Conditions
+            </Link>
+          </div>
         </div>
       </div>
 

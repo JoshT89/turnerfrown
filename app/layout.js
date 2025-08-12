@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import CookieConsent from '@/components/CookieConsent';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <Navigation />
         <main>{children}</main>
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   );
